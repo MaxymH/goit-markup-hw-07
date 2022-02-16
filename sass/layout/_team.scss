@@ -1,0 +1,90 @@
+.team {
+  padding-top: 88px;
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
+}
+
+.team .team-title {
+  text-align: center;
+  margin-bottom: 50px;
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.16;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+.team .list{
+  display: flex;
+}
+.team .list-items:not(:last-child){
+  margin-right: 30px;
+}
+.team .list-items{
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+border: 1px solid #EEEEEE;
+ background-color: var(--primeri-bg-color)
+}
+.team .images{
+  margin-top: 0;
+  border-top: 0;
+  padding-bottom: 0;
+}
+.team .title {
+  text-align: center;
+  margin-bottom: var(--title-margiin-bottom);
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.16;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+.team .team-paragraph {
+  color: var(--primeri-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.team .text-items{
+  padding-top: 30px;
+}
+
+.team .icon{
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+  transition: fill 250ms;
+}
+.team .list-icon{
+display: flex;
+justify-content: center;
+margin: 16px 32px 30px 32px;
+}
+.team .link{
+  display: flex;
+  border-radius: 50%;
+  background-color: var(--primeri-bg-color);
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms;
+}
+.team .list-item:not(:last-child){
+  margin-right: 10px;
+}
+.team .link:hover,
+.team .link:focus{
+background-color: var(--accent-color);
+
+
+}
+
+.team .link:hover .icon,
+.team .link:focus .icon{
+fill: var(--primeri-bg-color);
+
+}

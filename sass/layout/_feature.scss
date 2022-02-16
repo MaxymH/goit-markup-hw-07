@@ -1,0 +1,48 @@
+.feature{
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+}
+.feature .list{
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.feature .list-item{
+  width: 270px;
+}
+.feature .list-item:not(:last-child){
+  margin-right: 30px;
+}
+.feature .bg{
+  width: 270px;
+  height: 120px;
+  background: #F5F4FA;
+border-radius: 4px;
+margin-bottom: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+ .feature .icon{
+  width: 70px;
+  height: 70px;
+  }
+
+.feature .feature-title {
+
+  margin-bottom: var(--title-margiin-bottom);
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.feature .paragraph {
+  color: var(--primeri-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
