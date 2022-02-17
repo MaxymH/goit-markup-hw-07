@@ -44,11 +44,12 @@
   letter-spacing: 0.02em;
   position: relative;
   transition: color 250ms;
+  &:focus,
+  &:hover {
+    color: var(--accent-color);
+  }
 }
-.site-nav .link:focus,
-.site-nav .link:hover {
-  color: var(--accent-color);
-}
+
 .site-nav .link.current {
   color: var(--accent-color);
 }
@@ -81,18 +82,20 @@
   display: flex;
   align-items: center;
   transition: color 250ms;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
-.auth-nav .contact:hover,
-.auth-nav .contact:focus {
-  color: var(--accent-color);
-}
-.auth-nav .contact-icon {
+
+.contact-icon {
   transition: fill 250ms;
+  .auth-nav .contact:hover &,
+  .auth-nav .contact:focus & {
+    fill: var(--accent-color);
+  }
 }
-.auth-nav .contact:hover .contact-icon,
-.auth-nav .contact:focus .contact-icon {
-  fill: var(--accent-color);
-}
+
 .auth-nav .email {
   width: 16px;
   height: 12px;

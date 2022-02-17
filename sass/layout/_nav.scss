@@ -16,13 +16,12 @@
   border: 0px;
   cursor: pointer;
   transition: color, background-color, 250ms;
+  &:hover,
+  &:focus {
+    color: var(--primeri-bg-color);
+    background-color: var(--accent-color);
+  }
 }
 .primeri-nav .list-items + .list-items {
   margin-left: 8px;
-}
-
-.primeri-nav .button:hover,
-.primeri-nav .button:focus {
-  color: var(--primeri-bg-color);
-  background-color: var(--accent-color);
 }

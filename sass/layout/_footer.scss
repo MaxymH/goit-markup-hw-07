@@ -32,11 +32,12 @@
   font-style: normal;
   letter-spacing: 0.03em;
   transition: color 250ms;
+  &:focus,
+  &:hover {
+    color: var(--accent-color);
+  }
 }
-.footer .contact:focus,
-.footer .contact:hover {
-  color: var(--accent-color);
-}
+
 /* social-network */
 .social-network {
   display: flex;
@@ -67,7 +68,7 @@
   height: 20px;
   fill: var(--primeri-bg-color);
 }
-.footer .social-network .link {
+.social-network .link {
   display: flex;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
@@ -76,11 +77,12 @@
   align-items: center;
   justify-content: center;
   transition: background-color 250ms;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
-.footer .social-network .link:hover,
-.footer .social-network .link:focus {
-  background-color: var(--accent-color);
-}
+
 .form-subscribe {
   display: flex;
   position: relative;

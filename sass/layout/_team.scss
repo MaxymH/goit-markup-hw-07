@@ -73,16 +73,15 @@
   align-items: center;
   justify-content: center;
   transition: background-color 250ms;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+  &:hover .icon,
+  &:focus .icon {
+    fill: var(--primeri-bg-color);
+  }
 }
 .team .list-item:not(:last-child) {
   margin-right: 10px;
-}
-.team .link:hover,
-.team .link:focus {
-  background-color: var(--accent-color);
-}
-
-.team .link:hover .icon,
-.team .link:focus .icon {
-  fill: var(--primeri-bg-color);
 }
