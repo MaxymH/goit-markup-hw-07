@@ -1,11 +1,14 @@
 // ------------BASE------------//
-
+@import "./base/button";
+@import "./base/reset;
 // ------------BASE------------//
 // ------------UTILS------------//
-
+@import "./utils/hidden";
+@import "./utils/vars";
 // ------------UTILS------------//
 // ------------COMPONENTS------------//
-
+@import "./components/modal";
+@import "./components/container";
 // ------------COMPONENTS------------//
 // ------------LAYOUT-----------
 @import "./layout/header";
@@ -16,5 +19,6 @@
 @import "./layout/clients";
 @import "./layout/footer";
 @import "./layout/nav";
-@import "./layout/portfolio;
+@import "./layout/portfolio";
+@import "./layout/images";
 // ------------LAYOUT------------//
