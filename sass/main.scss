@@ -1,16 +1,13 @@
 // ------------BASE------------//
-@import "./base/reset";
 
 // ------------BASE------------//
 // ------------UTILS------------//
-@import "./utils/vars";
+
 // ------------UTILS------------//
 // ------------COMPONENTS------------//
-@import "./components/container";
-@import "./components/visual-hiden";
+
 // ------------COMPONENTS------------//
 // ------------LAYOUT-----------
-@import "./layout/modal";
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/feature";
@@ -18,23 +15,6 @@
 @import "./layout/team";
 @import "./layout/clients";
 @import "./layout/footer";
-@import "./layout/portfolio";
-@import "./layout/pf_nav";
-@import "./layout/pf_menu";
-
+@import "./layout/nav";
+@import "./layout/portfolio;
 // ------------LAYOUT------------//
-
-
-
-
-
-
-
-@import "./utils/vars";
-@import "./utils/vars";
-@import "./utils/vars";
-@import "./utils/vars";
-@import "./utils/vars";
-@import "./utils/vars";
-@import "./utils/vars";
-

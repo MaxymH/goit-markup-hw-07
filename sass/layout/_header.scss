@@ -1,4 +1,4 @@
-.header{
+.header {
   display: flex;
   align-items: center;
 }
@@ -24,13 +24,13 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.site-nav{
+.site-nav {
   padding: 0;
   margin: 0;
   display: flex;
   margin-left: 93px;
 }
-.site-nav .list + .list{
+.site-nav .list + .list {
   margin-left: 40px;
 }
 .site-nav .link {
@@ -43,17 +43,16 @@
   font-weight: 500;
   letter-spacing: 0.02em;
   position: relative;
-  transition: color 250ms ;
+  transition: color 250ms;
 }
 .site-nav .link:focus,
 .site-nav .link:hover {
   color: var(--accent-color);
-  
 }
 .site-nav .link.current {
   color: var(--accent-color);
 }
-.current::after{
+.current::after {
   position: absolute;
   bottom: 0;
   content: "";
@@ -61,16 +60,16 @@
   height: 4px;
   min-width: 48px;
   border-radius: 2px;
-  background-color: #2196F3;
+  background-color: #2196f3;
   width: 100%;
 }
-.auth-nav{margin-left: auto;
-   padding: 0;
+.auth-nav {
+  margin-left: auto;
+  padding: 0;
   display: flex;
- 
 }
 
-.auth-nav .list:not(:first-child){
+.auth-nav .list:not(:first-child) {
   margin-left: 50px;
 }
 .auth-nav .contact {
@@ -81,31 +80,27 @@
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
- transition: color 250ms;
+  transition: color 250ms;
 }
 .auth-nav .contact:hover,
 .auth-nav .contact:focus {
-  color: var(--accent-color); 
+  color: var(--accent-color);
 }
-.auth-nav .contact-icon{
-transition: fill 250ms;
+.auth-nav .contact-icon {
+  transition: fill 250ms;
 }
 .auth-nav .contact:hover .contact-icon,
-.auth-nav .contact:focus .contact-icon{
+.auth-nav .contact:focus .contact-icon {
   fill: var(--accent-color);
 }
-.auth-nav .email{
+.auth-nav .email {
   width: 16px;
   height: 12px;
   margin-right: 10px;
 }
 
-.auth-nav .tell{
-  
+.auth-nav .tell {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-}
-.header-portfolio{
-  border-bottom: 1px solid #ECECEC;;
 }

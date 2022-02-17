@@ -1,18 +1,17 @@
 .footer {
   background-color: #2f303a;
   padding: 0;
-   padding-top: 60px;
+  padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
 }
-.footer .list{
+.footer .list {
   padding: 0;
   display: inline-block;
 }
-.footer .footer-flex{
+.footer .footer-flex {
   display: flex;
   align-items: baseline;
-  
 }
 .footer .adress {
   color: var(--primeri-bg-color);
@@ -21,8 +20,8 @@
   font-style: normal;
   letter-spacing: 0.03em;
 }
-.footer .list-items + .list-items{
-margin-top: 9px;
+.footer .list-items + .list-items {
+  margin-top: 9px;
 }
 .footer .contact {
   padding: 0 0 0 0;
@@ -37,42 +36,41 @@ margin-top: 9px;
 .footer .contact:focus,
 .footer .contact:hover {
   color: var(--accent-color);
-  
 }
 /* social-network */
-.social-network{
+.social-network {
   display: flex;
   flex-direction: column;
   margin-left: 70px;
 }
-.social-network .title{
-font-weight: bold;
-font-size: 14px;
-line-height: calc(16px / 12px);
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--primeri-bg-color);
-margin-bottom: 20px;
+.social-network .title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16px / 12px);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primeri-bg-color);
+  margin-bottom: 20px;
 }
-.footer .social-network .items + .items{
+.footer .social-network .items + .items {
   margin-left: 10px;
 }
-.footer .adress{
+.footer .adress {
   display: flex;
   flex-direction: column;
 }
-.footer .social-network .list{
+.footer .social-network .list {
   display: flex;
 }
-.footer .social-network .icon{
+.footer .social-network .icon {
   width: 20px;
   height: 20px;
   fill: var(--primeri-bg-color);
 }
-.footer .social-network .link{
+.footer .social-network .link {
   display: flex;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);;
+  background-color: rgba(255, 255, 255, 0.1);
   width: 44px;
   height: 44px;
   align-items: center;
@@ -80,41 +78,38 @@ margin-bottom: 20px;
   transition: background-color 250ms;
 }
 .footer .social-network .link:hover,
-.footer .social-network .link:focus{
+.footer .social-network .link:focus {
   background-color: var(--accent-color);
-  
 }
-.form-subscribe{
+.form-subscribe {
   display: flex;
   position: relative;
   margin-left: 93px;
-  
 }
-.form-subscribe .subscribe-window-cont{
+.form-subscribe .subscribe-window-cont {
   display: flex;
   flex-direction: column;
 }
-.form-subscribe .form-container{
+.form-subscribe .form-container {
   position: relative;
   display: flex;
- 
+
   min-width: 574px;
 }
-.form-subscribe .subscribe-text{
+.form-subscribe .subscribe-text {
   margin-bottom: 20px;
-font-weight: bold;
-font-size: 14px;
-line-height: calc(16 / 14);
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--primeri-bg-color);
-
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primeri-bg-color);
 }
-.form-subscribe .subscribe-b{
+.form-subscribe .subscribe-b {
   margin-left: 12px;
   width: 200px;
   height: 50px;
-  background: #2196F3;
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0;
@@ -122,30 +117,30 @@ color: var(--primeri-bg-color);
   font-family: Roboto;
   font-weight: bold;
   font-size: 16px;
-line-height: calc(38 / 16);
-letter-spacing: 0.06em;
-color: var(--primeri-bg-color);
-position: absolute;
-right: 0;
-bottom: 0;
-display: flex;
-align-items: center;
-justify-content: center;
-cursor: pointer;
+  line-height: calc(38 / 16);
+  letter-spacing: 0.06em;
+  color: var(--primeri-bg-color);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
- .form-subscribe .window-mail{
+.form-subscribe .window-mail {
   background-color: transparent;
   width: 358px;
-height: 50px;
-border: 1px solid rgba(255, 255, 255, 0.3);
-box-sizing: border-box;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
-color: var(--primeri-bg-color);
-padding-left: 30px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: var(--primeri-bg-color);
+  padding-left: 30px;
 }
 
-.form-subscribe .icon-send{
+.form-subscribe .icon-send {
   width: 24px;
   height: 24px;
   fill: var(--primeri-bg-color);

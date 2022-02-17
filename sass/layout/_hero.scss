@@ -1,16 +1,19 @@
 .main {
-  
   padding-top: 200px;
   padding-bottom: 200px;
+  /* background-color: #2f303a; */
   text-align: center;
-  background:  rgba(47, 48, 58, 0.4);
-  background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/bg-main.jpg)  ;
+  background: rgba(47, 48, 58, 0.4);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg-main.jpg);
   background-size: cover;
   background-position: center;
   width: 1600px;
   margin-left: auto;
   margin-right: auto;
- 
 }
 
 .main-title {
@@ -22,30 +25,11 @@
   letter-spacing: 0.06em;
   text-align: center;
 }
-.backdrop{
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
   background: rgba(47, 48, 58, 0.8);
-}
-.button-primeri {
-  display: inline-block;
-  color: var(--primeri-bg-color);
-  background-color: var(--accent-color);
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  line-height: calc(30 / 16);
-  font-weight:bold;
-  cursor: pointer;
-  letter-spacing: 0.06em;
-  border-radius: 4px;
-  padding: 10px 32px;
-  min-width: 200px;
-  text-align: center;
-}
-.section .no-pading{
-  padding-top: 0;
-  padding-bottom: 0;
 }
