@@ -1,7 +1,7 @@
 .images {
   padding-bottom: 94px;
 }
-.images .title {
+.images .images-title {
   text-align: center;
   margin-bottom: 50px;
   color: var(--title-text-color);
@@ -9,17 +9,17 @@
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
-.images .list {
+.images .images-list {
   display: flex;
 }
-.images .list-items + .list-items {
+.images .images-list-items + .images-list-items {
   margin-left: 30px;
 }
-.images .animation {
+.images .images-animation {
   position: relative;
   overflow: hidden;
 }
-.images .text {
+.images .images-text {
   bottom: 0;
   padding: 27px 82px;
   position: absolute;

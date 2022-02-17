@@ -1,4 +1,4 @@
-.main {
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
   /* background-color: #2f303a; */
@@ -16,7 +16,7 @@
   margin-right: auto;
 }
 
-.main-title {
+.hero-title {
   margin-top: 0;
   margin-bottom: 30px;
   color: var(--primeri-bg-color);
@@ -24,12 +24,4 @@
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
-}
-.backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(47, 48, 58, 0.8);
 }
