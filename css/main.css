@@ -453,7 +453,7 @@ img {
   width: 270px;
 }
 
-.feature .list-item:not(:last-child) {
+.feature .feature-list-item:not(:last-child) {
   margin-right: 30px;
 }
 
